@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: rgb(21, 18, 18); */
+}
+
+.form {
+    width: 100%;
+    height: auto;
+    background-color: #0F172A;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 12rem;
+    padding: 5rem;
+   
+}
+
+.big-image {
+    width: 50%;
+    width: 350px;
+    height: 450px;
+    object-fit: cover;
+}
+
+.siging-up {
+    width: 50%;
+    background-color: red;
+    
+}
